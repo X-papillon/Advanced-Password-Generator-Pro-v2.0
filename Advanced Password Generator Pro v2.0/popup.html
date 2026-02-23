@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Password Generator Pro by Xpapillon</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="badge-support">
+  <a href="https://ko-fi.com/ashraf07" target="_blank">
+    <img src="https://ko-fi.com/img/githubbutton_sm.svg" alt="Buy me a coffee" style="border:0;height:20px;width:auto;">
+  </a>
+</div>
+
+<h2 id="titl">XPassword Generator Pro<small id="vr"> v2.0</small></h2>
+<h4 id="inf">advance-password-generator</h4>
+<hr>
+
+<input type="text" id="searchBox" readonly>
+
+<div id="strengthBarContainer">
+  <div id="strengthBar"></div>
+</div>
+
+<div class="row">
+  <button id="copyBtn">Copy</button>
+  <button id="regenBtn">Generate</button>
+  <button id="exportBtn">Export</button>
+</div>
+
+<div id="ops">
+  <h3>Options</h3>
+
+  <div class="row">
+    <label><input type="checkbox" id="letters" checked> Letters</label>
+    <label><input type="checkbox" id="numbers" checked> Numbers</label>
+    <label><input type="checkbox" id="symbols" checked> Symbols</label>
+  </div>
+
+  <div class="row">
+    <label>Length:</label>
+    <input type="number" id="length" value="16" min="4" max="64"
+    style="width:60px;background:#222;color:#fff;border:1px solid #444;">
+  </div>
+</div>
+
+<div class="row">
+  <h3 style="flex:1">History</h3>
+  <button id="clearHistoryBtn">Clear</button>
+</div>
+<div id="urlList"></div>
+
+<script src="popup.js"></script>
+</body>
+</html>

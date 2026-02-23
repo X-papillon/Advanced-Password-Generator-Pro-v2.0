@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Password Generator Pro by Xpapillon",
+  "description": "Advanced Secure Password Generator with Strength Meter and History",
+  "version": "2.0",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": ["storage"],
+  "icons": {
+    "16": "16.png",
+    "48": "48.png",
+    "128": "128.png"
+  }
+}

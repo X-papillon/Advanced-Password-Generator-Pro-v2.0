@@ -1,0 +1,87 @@
+body{
+    background:#111;
+    color:#eee;
+    font-family:Arial;
+    width:450px;
+    padding:10px
+}
+#vr{text-align:right;
+font-size: 0.6em;
+  opacity: 0.7;
+  font-weight: normal;
+}
+#searchBox{
+    width:430px;
+    padding:8px;
+    background:#222;
+    color:#fff;
+    border:1px solid #444
+}
+
+#strengthBarContainer{
+    width:446px;
+    height:8px;
+    background:#222;
+    border:1px solid #333;
+    margin-top:5px;
+}
+
+#strengthBar{
+    height:100%;
+    width:0%;
+    transition:0.3s;
+}
+
+.row{
+    display:flex;
+    gap:4px;
+    margin-top:6px;
+    align-items:center;
+}
+
+button{
+    padding:6px;
+    font-size:11px;
+    background:#222;
+    color:#fff;
+    border:1px solid #444;
+    cursor:pointer
+}
+
+button:hover{ background:#333 }
+
+#titl{
+    text-align:center;
+    text-shadow:0 0 20px #00ffff,0 0 40px #00ffff;
+    animation:glow 2s infinite alternate;
+}
+
+@keyframes glow{
+    from{ text-shadow:0 0 10px #00ffff }
+    to{ text-shadow:0 0 30px #00ffff }
+}
+
+h3{ color:#6cf }
+
+#urlList{
+    margin-top:8px;
+    background:#000;
+    padding:6px;
+    height:120px;
+    overflow:auto;
+    border:1px solid #333;
+    font-size:11px
+}
+
+.badge-support{
+    display:flex;
+    justify-content:flex-end;
+    margin-top:5px;
+}
+h4{
+	text-align:center;
+	font-size: 0.8em;
+  opacity: 0.9;
+  font-weight: normal;
+	
+}
