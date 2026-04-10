@@ -1,4 +1,4 @@
-# <img src="https://raw.githubusercontent.com/X-papillon/Advanced-Password-Generator-Pro-v2.0/refs/heads/main/Advanced%20Password%20Generator%20Pro%20v2.0/128.png" width="50"/> Advanced-Password-Generator-Pro-v2.0
+# <img src="https://images2.imgbox.com/54/32/hYf4D2Qd_o.png" width="50"/> Advanced-Password-Generator-Pro-v2.0
 ### A secure, fully offline Chrome Extension for generating strong passwords with live strength meter, history tracking, and crypto-based security.
 
 ![Version](https://img.shields.io/badge/version-2.0-blue)
@@ -162,7 +162,7 @@ If you find this project useful:
 ## 📸 Screenshots
 
 <p>
-  <img src="https://raw.githubusercontent.com/X-papillon/Advanced-Password-Generator-Pro-v2.0/refs/heads/main/scrn1.jpg" width="400"/>
+  <img src="https://images2.imgbox.com/3a/b9/6v8EKCxF_o.jpg" width="400"/>
   <br/>
 </p>
 
